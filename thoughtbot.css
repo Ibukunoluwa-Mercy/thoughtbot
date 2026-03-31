@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(rgb(34, 20, 20));
+}
+.main{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+}
+img{
+    margin-left: 30px;
+    margin-top: 12px;
+    
+}
+.thoughtword{
+    margin-left: 20px;
+    color: white;
+    margin-top: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+.head{
+    margin-top: 10px;
+    margin-left: 350px;
+}
+.head select{
+    color: white;
+    border: 1px;
+    margin-top: 2px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 30px;
+}
+.blog{
+    color: yellow;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border: 3px solid red;
+    border-radius: 25px;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 350px;
+    height: 40px;
+    width: 220px;
+    text-align: center;
+}
+.first{
+    padding-top: 180px;
+    color: #FAF9F9;
+    padding-left: 580px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.robot{
+    font-weight: lighter;
+    font-size: 26px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.anchor {
+    margin-top: 20px;
+    border-radius: 24px;
+}
+.anchor a{
+    border: 0.3px solid white;
+    border-radius: 20px;
+    color: #FAF9F9;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+hr{
+    width: 750px;
+    margin-left: 2px;
+}
+.strategic{
+    padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.giant{
+    padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.pytel{
+    color:  #ffe7a3;
+    font-size: 18px;
+}
+.podcast{
+    font-weight: 500;
+    font-size: 18px;
+}
+.ways{
+    font-size: 25px;
+    word-spacing: 1px;
+}
+.march{
+    font-size: 18px;
+}
+.duck{
+padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.copied{
+padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.observe{
+padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.bike{
+    padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.budget{
+    padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.launch{
+    padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.shed{
+    padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.claude{
+    padding-top: 80px;
+    color: #FAF9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 600px;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.next{
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 100px;
+    text-align: center;
+    color: #ffe7a3
+}
+
+.next a{
+    color: #FAF9F9;
+    margin: 0 10px;
+    text-decoration: underline dotted;
+}
+
+#num1{
+    text-decoration: none;
+    color: #ffe7a3;
+}
+
+#topic{
+    border: none;
+    text-decoration: underline dotted;
+}
