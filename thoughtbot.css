@@ -4,61 +4,78 @@
     background: linear-gradient(rgb(34, 20, 20));
 }
 .main{
-    margin-top: 20px;
+    margin-top: 9px;
     margin-left: 30px;
     display: flex;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 img{
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 12px;
     
 }
+.logo{
+    cursor: pointer;
+}
 .thoughtword{
-    margin-left: 20px;
-    color: white;
+    margin-left: 10px;
+    color: whitesmoke;
     margin-top: 12px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: monospace;
     font-size: 15px;
+    cursor: pointer;
 }
 .head{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 350px;
 }
 .head select{
-    color: white;
+    color: whitesmoke;
     border: 1px;
     margin-top: 2px;
     padding: 5px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     font-size: 18px;
     font-weight: bold;
     gap: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.head select:hover{
+    color: #ffc23f;
+    text-decoration: underline;
+    border: 1px solid #ffc23f;
+    transition: 0.2;
 }
 .blog{
-    color: yellow;
+    color: #ffc23f;
     margin-left: 50px;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
 }
-button{
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+#button{
+    color: whitesmoke;
+    font-family: monospace;
     font-size: 18px;
     border: 3px solid red;
     border-radius: 25px;
-    background-color: red;
-    margin-top: 20px;
+    background: red;
+    margin-top: 10px;
     margin-left: 350px;
     height: 40px;
-    width: 220px;
+    width: 200px;
     text-align: center;
+    font-weight: 600;
 }
 .first{
-    padding-top: 180px;
+    padding-top: 150px;
     color: #FAF9F9;
-    padding-left: 580px;
+    padding-left: 500px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -73,7 +90,7 @@ button{
     border-radius: 24px;
 }
 .anchor a{
-    border: 0.3px solid white;
+    border: 0.01px solid bisque;
     border-radius: 20px;
     color: #FAF9F9;
     text-decoration: none;
@@ -82,6 +99,14 @@ button{
     padding: 10px;
     text-align: center;
     font-size: 20px;
+    cursor: pointer;
+    gap: 20px;
+}
+.anchor a:hover{
+    background: bisque;
+    border: none;
+    color: rgb(34, 20, 20);
+    transition: 0.5s;
 }
 hr{
     width: 750px;
@@ -91,26 +116,43 @@ hr{
     padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
+}
+.strategic h1:hover{
+    color: #ffc23f;
+    cursor: pointer;
 }
 .giant{
     padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
+}
+.giant h1:hover{
+    color: #ffc23f;
+    cursor: pointer;  
 }
 .pytel{
     color:  #ffe7a3;
     font-size: 18px;
 }
+.pytel:hover{
+    color: #ffc23f;
+    cursor: pointer;
+}
 .podcast{
     font-weight: 500;
     font-size: 18px;
 }
+.podcast:hover{
+    color: #ffc23f;
+    cursor: pointer;
+}
+
 .ways{
     font-size: 25px;
     word-spacing: 1px;
@@ -122,69 +164,101 @@ hr{
 padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
+}
+.duck h1:hover{
+    color: #ffc23f;
+    cursor: pointer;
 }
 .copied{
 padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
+}
+.copied h1:hover{
+    color: #ffc23f;
+    cursor: pointer;
 }
 .observe{
 padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
+}
+.observe h1:hover{
+    color: #ffc23f;
+    cursor: pointer;
 }
 .bike{
     padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
+}
+.bike h1:hover{
+    color: #ffc23f;
+    cursor: pointer;
 }
 .budget{
     padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
+}
+.budget h1:hover{
+    color: #ffc23f;
+    cursor: pointer;
 }
 .launch{
     padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
+}
+.launch h1:hover{
+    color: #ffc23f;
+    cursor: pointer;
 }
 .shed{
     padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
+}
+.shed h1:hover{
+    color: #ffc23f;
+    cursor: pointer;
 }
 .claude{
     padding-top: 80px;
     color: #FAF9F9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 600px;
+    padding-left: 500px;
     font-size: 15px;
     word-spacing: 1px;
 }
+.claude h1:hover{
+    color: #ffc23f;
+    cursor: pointer;
+}
 .next{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 10px;
     padding-left: 100px;
     text-align: center;
     color: #ffe7a3
@@ -194,14 +268,50 @@ padding-top: 80px;
     color: #FAF9F9;
     margin: 0 10px;
     text-decoration: underline dotted;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#num2:hover{
+    color: #ffc23f;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 #num1{
     text-decoration: none;
     color: #ffe7a3;
+    cursor: auto;
 }
+
+
 
 #topic{
     border: none;
     text-decoration: underline dotted;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FAF9F9;
+    /* margin-left: 580px; */
+    margin-top: 450%;
+    cursor: pointer;
+}
+#topic:hover{
+    color: #ffc23f;
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+#all{
+    background: #ffc23f;
+    color: black;
+   border: none;
+}
+.span{
+    color: #ffe7a3; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.span:hover{
+    color: #ffc23f;
+    text-decoration: none;
 }
